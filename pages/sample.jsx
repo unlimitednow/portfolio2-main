@@ -16,387 +16,729 @@ export default function HomePage() {
 		<>
 			<Color colors={colors} />
 			<Hero />
-	  <>
+	 <>
       <div className="div">
-        <div className="div-2">
-          <div className="div-3">
-            <h1 className="h1">
-              <p>With Lillie Dashboard</p>
-            </h1>
-            <div className="div-4">Select an option below</div>
-            <div className="div-5">
-              <a href="https://developers.unlimitednow.me/about" className="a">
-                <div className="div-6">
-                  <p>View Docs</p>
+        <div
+          data-framer-name="Asset"
+          name="Asset"
+          data-projection-id="19"
+          className="div-2"
+        >
+          <div data-projection-id="20" className="div-3" />
+          <a
+            data-framer-name="Device"
+            name="Device"
+            data-projection-id="22"
+            href="/test"
+            className="a"
+          >
+            <div data-projection-id="23" className="div-4">
+              <div
+                values="[object Object]"
+                data-projection-id="24"
+                className="div-5"
+              />
+              <div data-projection-id="67" className="div-6">
+                <div data-projection-id="68" className="div-7">
+                  <div
+                    data-framer-component-type="Text"
+                    data-projection-id="69"
+                    className="div-8"
+                  >
+                    <span className="span">
+                      <span className="span-2">
+                        <span className="span-3">
+                          <p>Pop. Shine. Glow.</p>
+                        </span>
+                        <br className="br" />
+                      </span>
+                    </span>
+                  </div>
                 </div>
-              </a>
-              <a href="https://feed.unlimitpotential.com/" className="a-2">
-                <div className="div-7">
-                  <p>Get Started</p>
+              </div>
+            </div>
+          </a>
+          <div
+            values="[object Object]"
+            data-projection-id="73"
+            className="div-9"
+          >
+            <div data-projection-id="74" className="div-10">
+              <div data-projection-id="75" className="div-11">
+                <div data-projection-id="76" className="div-12">
+                  <div
+                    data-framer-component-type="Stack"
+                    data-layoutid="AD1uRb789"
+                    data-framer-name="Cheryl"
+                    data-framer-generated="true"
+                    data-projection-id="77"
+                    className="div-13"
+                  >
+                    <div
+                      data-framer-stack-content-wrapper="true"
+                      data-framer-stack-direction-reverse="false"
+                      data-framer-stack-gap-enabled="true"
+                      data-projection-id="78"
+                      className="div-14"
+                    >
+                      <div
+                        data-framer-legacy-stack-gap-enabled="true"
+                        data-framer-stack-flexbox-gap="true"
+                        className="div-15"
+                      >
+                        <div
+                          data-framer-name="Avatar"
+                          data-projection-id="79"
+                          className="div-16"
+                        >
+                          <div
+                            data-framer-background-image-wrapper="true"
+                            data-projection-id="80"
+                            className="div-17"
+                          >
+                            <div className="div-18">
+                              <RawImg
+                                image="https://framerusercontent.com/images/mUVPNgOqhd1MFYjLtFtiBwvxfY.png"
+                                className="raw-img"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </a>
+              </div>
+            </div>
+            <div data-projection-id="81" className="div-19">
+              <div data-projection-id="82" className="div-20">
+                <div data-projection-id="83" className="div-21" />
+              </div>
+              <div data-projection-id="84" className="div-22" />
+              <div
+                data-framer-component-type="Text"
+                data-projection-id="85"
+                className="div-23"
+              >
+                <span className="span">
+                  <span className="span-4">
+                    <span className="span-5">0:16</span>
+                    <br className="br" />
+                  </span>
+                </span>
+              </div>
             </div>
           </div>
-          <div className="div-8">
-            <RawImg
-              loading="lazy"
-              alt=""
-              image="https://s3.amazonaws.com/appforest_uf/f1623580069971x921886834731931400/technology%20devices-0IYN.png"
-              className="raw-img"
-            />
-            <div className="div-9" lockAspectRatio={false}>
-              <picture>
-                <source
-                  srcset="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a"
-                  type="image/webp"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a"
-                  srcset="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F72c80f114dc149019051b6852a9e3b7a"
-                  className="image"
-                />
-              </picture>
-              <div className="builder-image-sizer image-sizer" />
-            </div>
+          <div
+            data-framer-component-type="SVG"
+            data-projection-id="86"
+            className="div-24"
+          />
+          <div
+            data-framer-component-type="SVG"
+            data-projection-id="87"
+            className="div-25"
+          />
+        </div>
+        <div className="div-26">
+          <div className="div-27">
+            <h2 className="h2">
+              <p>Get started using A.I.</p>
+            </h2>
+            <a href="https://angel.co/company/unlimited-now" className="a-2">
+              <p>
+                <span style="font-size: 16px;">Find us on angel.co</span>
+              </p>
+            </a>
+            <a href="/move" className="a-3" openLinkInNewTab={false}>
+              The Movement
+            </a>
+            <a
+              href="https://app.unlimitpotential.com/showcase"
+              className="a-4"
+              openLinkInNewTab={false}
+            >
+              Visit Showcase
+            </a>
+            <a
+              href="https://space.unlimitpotential.com/blueprints"
+              className="a-5"
+              openLinkInNewTab={false}
+            >
+              Create Your First Ad
+            </a>
+            <a
+              href="https://accounts.unlimitpotential.com/me"
+              className="a-6"
+              openLinkInNewTab={false}
+            >
+              Connect An Existing Site
+            </a>
+            <a
+              href="https://accounts.unlimitpotential.com/"
+              className="a-7"
+              openLinkInNewTab={false}
+            >
+              Make a payment
+            </a>
+            <a
+              href="https://calendly.com/unlimitednow/15min"
+              className="a-8"
+              openLinkInNewTab={false}
+            >
+              Find A Creator
+            </a>
           </div>
         </div>
       </div>
       <style jsx>{`
         .div {
-          border-bottom: 0px;
-          border-left: 0px;
-          border-right: 0px;
-          border-top: 0px;
-          width: 100vw;
-          margin-left: auto;
-          padding-left: 85px;
-          padding-right: 85px;
-          margin-right: auto;
+          justify-content: space-between;
+          align-content: stretch;
           display: flex;
-          flex-direction: column;
-          background-color: rgba(255, 255, 255, 1);
+          width: 100vw;
+          align-items: center;
+          flex-wrap: wrap;
+          content-visibility: auto;
+          contain-intrinsic-size: 728px;
+          background-color: rgba(252, 252, 252, 1);
+          padding-top: 22px;
+          padding-bottom: 40px;
+          padding-left: 65px;
+          margin-left: auto;
+        }
+        @media (max-width: 991px) {
+          .div {
+            flex-wrap: wrap-reverse;
+            display: flex;
+            content-visibility: auto;
+            contain-intrinsic-size: 788px;
+          }
         }
         @media (max-width: 640px) {
           .div {
-            width: 100vw;
-            align-self: center;
-            margin-left: calc(50% - 50vw);
-            padding-left: 20px;
+            display: none;
           }
         }
         .div-2 {
-          border-bottom: 0px;
-          border-bottom-color: rgb(92, 98, 120);
-          border-color: rgb(92, 98, 120);
-          border-left: 0px;
-          border-left-color: rgb(92, 98, 120);
-          border-right: 0px;
-          border-right-color: rgb(92, 98, 120);
-          border-top: 0px;
-          border-top-color: rgb(92, 98, 120);
-          font-family: Colfax, sans-serif;
-          font-size: 18px;
-          line-height: 27px;
-          align-items: center;
-          block-size: 762px;
-          border-block-color: rgb(92, 98, 120);
-          border-block-end-color: rgb(92, 98, 120);
-          border-block-start-color: rgb(92, 98, 120);
-          border-inline-color: rgb(92, 98, 120);
-          border-inline-end-color: rgb(92, 98, 120);
-          border-inline-start-color: rgb(92, 98, 120);
-          caret-color: rgb(92, 98, 120);
-          color: rgb(92, 98, 120);
-          column-rule-color: rgb(92, 98, 120);
-          display: flex;
-          inline-size: 1165px;
-          justify-content: space-between;
-          min-block-size: auto;
-          min-height: auto;
-          min-inline-size: auto;
-          min-width: auto;
-          outline-color: rgb(92, 98, 120);
-          perspective-origin: 582.5px 381px;
-          text-decoration: none solid rgb(92, 98, 120);
-          text-decoration-color: rgb(92, 98, 120);
-          text-size-adjust: 100%;
-          width: 100vw;
-          margin-left: auto;
-          margin-right: auto;
-          max-width: 1200px;
-          max-height: 599px;
-          padding-left: 65px;
-          padding-right: 100px;
-        }
-        @media (max-width: 991px) {
-          .div-2 {
-            width: auto;
-            align-self: center;
-          }
-        }
-        @media (max-width: 640px) {
-          .div-2 {
-            width: auto;
-            align-self: center;
-          }
+          height: 595px;
+          position: relative;
+          width: 337px;
+          pointer-events: unset;
+          margin-left: 271px;
+          margin-right: -500px;
         }
         .div-3 {
-          border-bottom: 0px;
-          border-bottom-color: rgb(92, 98, 120);
-          border-color: rgb(92, 98, 120);
-          border-left: 0px;
-          border-left-color: rgb(92, 98, 120);
-          border-right: 0px;
-          border-right-color: rgb(92, 98, 120);
-          border-top: 0px;
-          border-top-color: rgb(92, 98, 120);
-          font-family: Colfax, sans-serif;
-          font-size: 18px;
-          line-height: 27px;
-          block-size: 461.375px;
-          border-block-color: rgb(92, 98, 120);
-          border-block-end-color: rgb(92, 98, 120);
-          border-block-start-color: rgb(92, 98, 120);
-          border-inline-color: rgb(92, 98, 120);
-          border-inline-end-color: rgb(92, 98, 120);
-          border-inline-start-color: rgb(92, 98, 120);
-          caret-color: rgb(92, 98, 120);
-          color: rgb(92, 98, 120);
-          column-rule-color: rgb(92, 98, 120);
-          inline-size: 470px;
-          max-inline-size: 470px;
-          max-width: 470px;
-          min-block-size: auto;
-          min-height: auto;
-          min-inline-size: auto;
-          min-width: auto;
-          outline-color: rgb(92, 98, 120);
-          perspective-origin: 235px 230.688px;
-          text-decoration: none solid rgb(92, 98, 120);
-          text-decoration-color: rgb(92, 98, 120);
-          text-size-adjust: 100%;
-          transform-origin: 235px 230.688px;
-          margin-top: auto;
-          margin-bottom: auto;
-          padding-top: 50px;
-        }
-        @media (max-width: 640px) {
-          .div-3 {
-            width: auto;
-            flex-grow: 0;
-            display: flex;
-            flex-direction: column;
-          }
-        }
-        .h1 {
-          border-bottom: 0px;
-          border-bottom-color: rgb(51, 51, 51);
-          border-color: rgb(51, 51, 51);
-          border-left: 0px;
-          border-left-color: rgb(51, 51, 51);
-          border-right: 0px;
-          border-right-color: rgb(51, 51, 51);
-          border-top: 0px;
-          border-top-color: rgb(51, 51, 51);
-          font-family: "Play", sans-serif;
-          font-size: 64px;
-          font-weight: 900;
-          line-height: 81.6px;
-          margin-bottom: 30px;
-          block-size: 244.781px;
-          border-block-color: rgb(51, 51, 51);
-          border-block-end-color: rgb(51, 51, 51);
-          border-block-start-color: rgb(51, 51, 51);
-          border-inline-color: rgb(51, 51, 51);
-          border-inline-end-color: rgb(51, 51, 51);
-          border-inline-start-color: rgb(51, 51, 51);
-          caret-color: rgb(51, 51, 51);
-          color: rgba(22, 11, 54, 1);
-          column-rule-color: rgb(51, 51, 51);
-          inline-size: 470px;
-          margin: 0px 0px 30px;
-          margin-block: 0px 30px;
-          margin-block-end: 30px;
-          outline-color: rgb(51, 51, 51);
-          perspective-origin: 235px 122.391px;
-          text-decoration: none solid rgb(51, 51, 51);
-          text-decoration-color: rgb(51, 51, 51);
-          text-size-adjust: 100%;
-          transform-origin: 235px 122.391px;
+          aspect-ratio: 1 / 1;
+          border-radius: 50%;
+          border-top-left-radius: 50%;
           height: auto;
-          flex-grow: 0;
+          left: -253px;
+          opacity: 0.15;
+          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          position: absolute;
+          top: -10px;
+          width: 579px;
+          will-change: transform;
+          pointer-events: unset;
+          background-image: radial-gradient(
+            50% 50% at 50% 50%,
+            rgb(55, 0, 87) 0%,
+            rgba(255, 255, 255, 0) 100%
+          );
         }
-        @media (max-width: 991px) {
-          .h1 {
-            font-family: "Play", sans-serif;
-            font-weight: 900;
-          }
-        }
-        @media (max-width: 640px) {
-          .h1 {
-            width: auto;
-            align-self: center;
-            margin-top: -70px;
-            padding-right: 129px;
-            padding-left: 5px;
-          }
+        .a {
+          column-gap: 0px;
+          gap: 0px;
+          row-gap: 0px;
+          align-content: center;
+          align-items: center;
+          background-color: rgba(22, 11, 54, 1);
+          border-radius: 46px;
+          border-top-left-radius: 46px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 20px 60px 0px,
+            rgba(44, 24, 68, 0.1) 0px 20px 40px 0px;
+          display: flex;
+          height: min-content;
+          justify-content: center;
+          left: 50%;
+          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 10px;
+          place-content: center;
+          position: absolute;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          width: 288px;
+          will-change: transform;
+          pointer-events: unset;
+          cursor: pointer;
         }
         .div-4 {
-          border-bottom: 0px;
-          border-bottom-color: rgb(102, 102, 102);
-          border-color: rgb(102, 102, 102);
-          border-left: 0px;
-          border-left-color: rgb(102, 102, 102);
-          border-right: 0px;
-          border-right-color: rgb(102, 102, 102);
-          border-top: 0px;
-          border-top-color: rgb(102, 102, 102);
-          font-family: Colfax, sans-serif;
-          font-size: 24px;
-          line-height: 33.6px;
-          margin-bottom: 50px;
-          block-size: 33.5938px;
-          border-block-color: rgb(102, 102, 102);
-          border-block-end-color: rgb(102, 102, 102);
-          border-block-start-color: rgb(102, 102, 102);
-          border-inline-color: rgb(102, 102, 102);
-          border-inline-end-color: rgb(102, 102, 102);
-          border-inline-start-color: rgb(102, 102, 102);
-          caret-color: rgb(102, 102, 102);
-          color: rgb(102, 102, 102);
-          column-rule-color: rgb(102, 102, 102);
-          inline-size: 470px;
-          margin-block-end: 50px;
-          outline-color: rgb(102, 102, 102);
-          perspective-origin: 235px 16.7969px;
-          text-decoration: none solid rgb(102, 102, 102);
-          text-decoration-color: rgb(102, 102, 102);
-          text-size-adjust: 100%;
-          transform-origin: 235px 16.7969px;
+          background-image: url(https://cdn.builder.io/api/v1/image/assets%2Fa480daf8d0e34c12bcc3f48f0079ed71%2F71614f3a4b8c43f291a04b66048e8837);
+          border-radius: 37px;
+          border-top-left-radius: 37px;
+          flex-basis: 0px;
+          flex-grow: 1;
+          height: 575px;
+          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          position: relative;
+          width: 1px;
+          will-change: transform;
+          pointer-events: unset;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
         }
-        @media (max-width: 640px) {
-          .div-4 {
+        .div-5 {
+          column-gap: 0px;
+          gap: 0px;
+          row-gap: 0px;
+          align-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          flex-flow: column nowrap;
+          height: min-content;
+          justify-content: flex-start;
+          left: 20px;
+          place-content: center flex-start;
+          position: absolute;
+          right: 20px;
+          top: 120px;
+          pointer-events: unset;
+        }
+        .div-6 {
+          column-gap: 0px;
+          gap: 0px;
+          row-gap: 0px;
+          align-content: center;
+          align-items: center;
+          background-color: rgb(240, 240, 240);
+          border-radius: 37px;
+          border-top-left-radius: 37px;
+          bottom: 0px;
+          display: flex;
+          height: min-content;
+          justify-content: center;
+          left: 0px;
+          padding-bottom: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 20px;
+          place-content: center;
+          position: absolute;
+          right: 0px;
+          pointer-events: unset;
+        }
+        .div-7 {
+          column-gap: 0px;
+          gap: 0px;
+          row-gap: 0px;
+          align-content: center;
+          align-items: center;
+          background-color: rgb(255, 255, 255);
+          border-radius: 50px;
+          border-top-left-radius: 50px;
+          display: flex;
+          flex-basis: 0px;
+          flex-grow: 1;
+          height: 40px;
+          justify-content: flex-start;
+          padding-bottom: 14px;
+          padding-left: 14px;
+          padding-right: 14px;
+          padding-top: 14px;
+          place-content: center flex-start;
+          position: relative;
+          width: 1px;
+          pointer-events: unset;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .div-8 {
+          position: relative;
+          white-space: pre;
+          pointer-events: unset;
+          flex-direction: column;
+          display: flex;
+          font-size: 15px;
+          justify-content: flex-start;
+          line-height: 1px;
+          outline: none;
+          margin-left: auto;
+          margin-right: auto;
+          font-family: "Play", sans-serif;
+        }
+        .span {
+          pointer-events: unset;
+          text-align: center;
+          font-size: 0px;
+          line-height: 0;
+          tab-size: 4;
+        }
+        .span-2 {
+          display: flex;
+          pointer-events: unset;
+          font-size: 0px;
+          flex-direction: column;
+        }
+        .span-3 {
+          color: rgb(87, 87, 87);
+          font-family: "Play", sans-serif;
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 500;
+          letter-spacing: normal;
+          line-height: 19.5px;
+          text-decoration: none solid rgb(87, 87, 87);
+          text-transform: none;
+          display: unset;
+          pointer-events: unset;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .br {
+          pointer-events: unset;
+        }
+        .div-9 {
+          column-gap: 0px;
+          gap: 0px;
+          row-gap: 0px;
+          align-content: center;
+          align-items: center;
+          display: flex;
+          height: min-content;
+          justify-content: flex-start;
+          left: -44px;
+          place-content: center flex-start;
+          position: absolute;
+          top: 145px;
+          width: min-content;
+          pointer-events: unset;
+          opacity: 0;
+          transform: translateX(0px) translateY(0px) scale(0.5) translateZ(0px);
+        }
+        .div-10 {
+          column-gap: 0px;
+          gap: 0px;
+          row-gap: 0px;
+          align-content: center;
+          align-items: center;
+          border-radius: 20px;
+          border-top-left-radius: 20px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px 0px;
+          display: flex;
+          height: min-content;
+          justify-content: flex-start;
+          place-content: center flex-start;
+          position: relative;
+          width: min-content;
+          pointer-events: unset;
+        }
+        .div-11 {
+          aspect-ratio: 1 / 1;
+          height: auto;
+          position: relative;
+          width: 40px;
+          pointer-events: unset;
+        }
+        .div-12 {
+          pointer-events: unset;
+          display: contents;
+        }
+        .div-13 {
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          position: relative;
+          pointer-events: unset;
+          background-color: rgb(255, 199, 15);
+          border-bottom-left-radius: 60px;
+          border-bottom-right-radius: 60px;
+          border-radius: 60px;
+          border-top-left-radius: 60px;
+          border-top-right-radius: 60px;
+          display: block;
+        }
+        .div-14 {
+          column-gap: 10px;
+          row-gap: 10px;
+          pointer-events: unset;
+          align-content: center;
+          align-items: center;
+          display: flex;
+          height: 100%;
+          justify-content: center;
+          place-content: center;
+          width: 100%;
+        }
+        .div-15 {
+          pointer-events: unset;
+          display: contents;
+        }
+        .div-16 {
+          flex-basis: 0px;
+          flex-grow: 1;
+          height: 100%;
+          position: relative;
+          width: 1px;
+          pointer-events: unset;
+          border-bottom-left-radius: 60px;
+          border-bottom-right-radius: 60px;
+          border-radius: 60px;
+          border-top-left-radius: 60px;
+          border-top-right-radius: 60px;
+        }
+        .div-17 {
+          pointer-events: none;
+          bottom: 0px;
+          inset: 0px;
+          left: 0px;
+          position: absolute;
+          right: 0px;
+          top: 0px;
+          user-select: none;
+        }
+        .div-18 {
+          pointer-events: none;
+          display: contents;
+        }
+        .raw-img {
+          pointer-events: none;
+          display: block;
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+          user-select: none;
+          width: 100%;
+        }
+        .div-19 {
+          column-gap: 0px;
+          gap: 0px;
+          row-gap: 0px;
+          align-content: center;
+          align-items: center;
+          background-color: rgb(255, 255, 255);
+          border-radius: 4px 20px 20px;
+          border-top-left-radius: 4px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px 0px;
+          display: flex;
+          height: min-content;
+          justify-content: flex-start;
+          padding-bottom: 12px;
+          padding-left: 12px;
+          padding-right: 12px;
+          padding-top: 12px;
+          place-content: center flex-start;
+          position: relative;
+          width: 127px;
+          pointer-events: unset;
+        }
+        .div-20 {
+          height: 16px;
+          position: relative;
+          width: 16px;
+          pointer-events: unset;
+        }
+        .div-21 {
+          pointer-events: unset;
+          display: contents;
+        }
+        .div-22 {
+          background-color: rgb(87, 87, 87);
+          border-radius: 500px;
+          border-top-left-radius: 500px;
+          flex-basis: 0px;
+          flex-grow: 1;
+          height: 3px;
+          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          position: relative;
+          width: 1px;
+          will-change: transform;
+          pointer-events: unset;
+        }
+        .div-23 {
+          opacity: 0.8;
+          position: relative;
+          white-space: pre;
+          pointer-events: unset;
+          flex-direction: column;
+          display: flex;
+          font-size: 0px;
+          justify-content: flex-start;
+          line-height: 1px;
+          outline: none;
+        }
+        .span-4 {
+          display: block;
+          pointer-events: unset;
+          font-size: 0px;
+        }
+        .span-5 {
+          color: rgb(0, 0, 0);
+          font-family: Outfit, serif;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 500;
+          letter-spacing: normal;
+          line-height: 19.5px;
+          text-decoration: none solid rgb(0, 0, 0);
+          text-transform: none;
+          display: unset;
+          pointer-events: unset;
+        }
+        .div-24 {
+          bottom: -31px;
+          height: 72px;
+          left: 0px;
+          position: absolute;
+          width: 33px;
+          pointer-events: unset;
+          background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2033%2072%22%3E%3Cpath%20d%3D%22M%2018.931%2054.707%20C%2020.743%2052.056%2022.447%2049.428%2024.304%2046.908%20C%2024.97%2046.006%2025.925%2045.255%2026.885%2044.646%20C%2028.222%2043.802%2029.692%2043.798%2031.044%2044.7%20C%2032.445%2045.63%2033.003%2047.025%2032.675%2048.629%20C%2032.454%2049.691%2032.009%2050.739%2031.504%2051.71%20C%2030.201%2054.23%2028.717%2056.657%2027.483%2059.207%20C%2026.777%2060.664%2026.195%2062.249%2025.935%2063.833%20C%2025.553%2066.144%2026.229%2068.235%2028.208%2069.721%20C%2029.124%2070.409%2028.913%2070.892%2028.021%2071.369%20C%2025.857%2072.529%2022.565%2072.027%2020.767%2070.068%20C%2017.931%2066.982%2017.432%2063.238%2017.99%2059.26%20C%2018.049%2058.826%2018.151%2058.397%2018.23%2057.974%20C%2013.822%2056.755%2011.657%2054.342%2011.51%2049.784%20C%2011.436%2047.4%2012.088%2044.992%2012.441%2042.594%20C%2012.509%2042.126%2012.71%2041.673%2012.852%2041.2%20C%2012.661%2041.112%2012.553%2041.029%2012.431%2041.014%20C%203.491%2039.762%20-1.471%2032.888%200.46%2024.06%20C%201.115%2021.077%202.116%2018.18%203.442%2015.427%20C%205.632%2010.884%208.154%206.491%2010.653%202.104%20C%2011.113%201.295%2012.063%200.627%2012.94%200.227%20C%2014.082%20-0.289%2015.222%200.14%2016.1%201.046%20C%2017.069%202.045%2017.236%203.288%2016.751%204.508%20C%2016.134%206.067%2015.33%207.559%2014.591%209.07%20C%2012.646%2013.048%2010.574%2016.977%208.791%2021.023%20C%207.89%2023.065%207.268%2025.293%206.93%2027.502%20C%206.273%2031.811%2010.016%2035.891%2014.405%2035.847%20C%2014.865%2035.842%2015.516%2035.462%2015.747%2035.067%20C%2018.103%2030.953%2021.228%2027.438%2024.358%2023.924%20C%2025.822%2022.276%2027.713%2021.944%2029.237%2022.988%20C%2030.794%2024.055%2031.191%2026.039%2030.049%2027.96%20C%2028.756%2030.129%2027.321%2032.216%2025.95%2034.336%20C%2022.903%2039.04%2020.092%2043.856%2018.637%2049.326%20C%2018.142%2051.222%2018.108%2053.064%2018.931%2054.707%20Z%22%20fill%3D%22rgb(0%2C0%2C0)%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+          background-size: 100% 100%;
+          image-rendering: pixelated;
+        }
+        .div-25 {
+          height: 48px;
+          position: absolute;
+          right: 0px;
+          top: 0px;
+          width: 24px;
+          pointer-events: unset;
+          background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2024%2048%22%3E%3Cpath%20d%3D%22M%204.679%2031.684%20C%204.929%2030.597%205.058%2029.465%205.448%2028.436%20C%208.431%2020.569%2010.61%2012.397%2014.184%204.757%20C%2014.551%203.972%2014.907%203.159%2015.4%202.453%20C%2016.794%200.461%2019.212%20-0.197%2021.255%200.777%20C%2023.313%201.76%2024.321%204.041%2023.741%206.422%20C%2023.642%206.826%2023.517%207.234%2023.35%207.616%20C%2021.043%2012.852%2018.848%2018.145%2016.362%2023.296%20C%2014.93%2026.267%2013.066%2029.029%2011.307%2031.822%20C%2010.704%2032.782%209.898%2033.649%209.052%2034.4%20C%207.241%2036.003%205.334%2035.271%204.883%2032.863%20C%204.811%2032.489%204.815%2032.1%204.781%2031.714%20C%204.747%2031.703%204.713%2031.691%204.679%2031.683%20Z%20M%204.448%2039.647%20C%206.58%2039.625%208.329%2041.36%208.358%2043.527%20C%208.397%2045.816%206.585%2047.734%204.387%2047.734%20C%202.106%2047.734%200.249%2045.997%200.222%2043.839%20C%200.192%2041.497%202.034%2039.67%204.448%2039.647%20Z%22%20fill%3D%22rgb(0%2C0%2C0)%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+          background-size: 100% 100%;
+          image-rendering: pixelated;
+        }
+        .div-26 {
+          flex-basis: 41.67%;
+          flex-grow: 1;
+          padding-left: 295px;
+          padding-right: 12px;
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          margin-right: auto;
+        }
+        @media (max-width: 991px) {
+          .div-26 {
+            flex-basis: 100%;
+            padding-left: 20px;
+            text-align: center;
             width: auto;
-            align-self: center;
-            margin-left: -106px;
+            flex-grow: 1;
+          }
+        }
+        .div-27 {
+          max-width: 550px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          padding-right: 100px;
+          padding-top: 20px;
+          padding-left: 50px;
+          padding-bottom: 20px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        @media (max-width: 991px) {
+          .div-27 {
+            margin-bottom: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 460px;
+          }
+        }
+        .h2 {
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 1.2;
+          margin-bottom: 32px;
+          color: rgba(42, 42, 42, 1);
+          font-family: "Play", sans-serif;
+        }
+        @media (max-width: 991px) {
+          .h2 {
+            font-size: 30px;
+            line-height: 1.33;
             margin-bottom: 20px;
           }
         }
-        .div-5 {
-          border-bottom: 0px;
-          border-bottom-color: rgb(92, 98, 120);
-          border-color: rgb(92, 98, 120);
-          border-left: 0px;
-          border-left-color: rgb(92, 98, 120);
-          border-right: 0px;
-          border-right-color: rgb(92, 98, 120);
-          border-top: 0px;
-          border-top-color: rgb(92, 98, 120);
-          font-family: Colfax, sans-serif;
-          font-size: 18px;
-          line-height: 27px;
-          margin-bottom: 40px;
-          margin-top: 40px;
-          align-items: center;
-          block-size: 63px;
-          border-block-color: rgb(92, 98, 120);
-          border-block-end-color: rgb(92, 98, 120);
-          border-block-start-color: rgb(92, 98, 120);
-          border-inline-color: rgb(92, 98, 120);
-          border-inline-end-color: rgb(92, 98, 120);
-          border-inline-start-color: rgb(92, 98, 120);
-          caret-color: rgb(92, 98, 120);
-          color: rgb(92, 98, 120);
-          column-rule-color: rgb(92, 98, 120);
+        .a-2 {
+          max-width: 475px;
+          font-size: 1rem;
+          color: rgba(107, 114, 128, 1);
+          margin-left: auto;
+          margin-bottom: 36px;
+          cursor: pointer;
+          pointer-events: auto;
           display: flex;
-          inline-size: 420px;
-          justify-content: space-between;
-          margin: 40px 0px;
-          margin-block: 40px;
-          margin-block-end: 40px;
-          margin-block-start: 40px;
-          max-inline-size: 420px;
-          max-width: 420px;
-          outline-color: rgb(92, 98, 120);
-          perspective-origin: 210px 31.5px;
-          text-decoration: none solid rgb(92, 98, 120);
-          text-decoration-color: rgb(92, 98, 120);
-          text-size-adjust: 100%;
-          transform-origin: 210px 31.5px;
         }
-        @media (max-width: 640px) {
-          .div-5 {
-            width: auto;
-            align-self: center;
-            display: flex;
-            flex-direction: column;
-            align-items: stretch;
-            margin-left: 80px;
-            margin-right: auto;
+        .a-3 {
+          all: unset;
+          display: none;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          appearance: none;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 25px;
+          padding-right: 25px;
+          background-color: black;
+          color: white;
+          border-radius: 4px;
+          text-align: center;
+          cursor: pointer;
+        }
+        @media (max-width: 991px) {
+          .a-3 {
+            font-family: "Play", sans-serif;
+            display: none;
           }
         }
-        .a {
-          color: rgb(255, 255, 255);
-          text-decoration: none rgb(255, 255, 255);
-          text-decoration-color: rgb(255, 255, 255);
-          border-bottom: 0px;
-          border-bottom-color: rgb(255, 255, 255);
-          border-color: rgb(255, 255, 255);
-          border-left: 0px;
-          border-left-color: rgb(255, 255, 255);
-          border-right: 0px;
-          border-right-color: rgb(255, 255, 255);
-          border-top: 0px;
-          border-top-color: rgb(255, 255, 255);
-          font-family: Colfax, sans-serif;
-          font-size: 18px;
-          font-weight: 700;
-          line-height: 27px;
-          block-size: 61px;
-          border-block-color: rgb(255, 255, 255);
-          border-block-end-color: rgb(255, 255, 255);
-          border-block-start-color: rgb(255, 255, 255);
-          border-inline-color: rgb(255, 255, 255);
-          border-inline-end-color: rgb(255, 255, 255);
-          border-inline-start-color: rgb(255, 255, 255);
-          caret-color: rgb(255, 255, 255);
-          column-rule-color: rgb(255, 255, 255);
-          cursor: pointer;
-          display: inline-block;
-          inline-size: 200px;
-          max-inline-size: 100%;
-          max-width: 100%;
-          min-block-size: auto;
-          min-height: auto;
-          min-inline-size: auto;
-          min-width: auto;
-          outline-color: rgb(255, 255, 255);
-          perspective-origin: 100px 30.5px;
-          text-size-adjust: 100%;
-          transform-origin: 100px 30.5px;
-          pointer-events: auto;
+        @media (max-width: 640px) {
+          .a-3 {
+            display: none;
+          }
         }
-        .div-6 {
-          border-bottom: 0px;
-          border-bottom-color: rgb(255, 255, 255);
-          border-left: 0px;
-          border-left-color: rgb(255, 255, 255);
-          border-right: 0px;
-          border-right-color: rgb(255, 255, 255);
-          border-top: 0px;
-          border-top-color: rgb(255, 255, 255);
-          font-family: Colfax, sans-serif;
-          font-size: 18px;
-          font-weight: 700;
-          line-height: 27px;
+        .a-4 {
+          all: unset;
+          display: flex;
+          padding-top: 18px;
           padding-bottom: 16px;
           padding-left: 28px;
           padding-right: 28px;
-          padding-top: 18px;
-          align-items: center;
           background-color: rgba(22, 11, 54, 1);
-          block-size: 27px;
+          color: rgb(255, 255, 255);
+          border-radius: 10px;
+          cursor: pointer;
+          border-bottom: 0px;
+          border-bottom-color: rgb(255, 255, 255);
+          border-left: 0px;
+          border-left-color: rgb(255, 255, 255);
+          border-right: 0px;
+          border-right-color: rgb(255, 255, 255);
+          border-top: 0px;
+          border-top-color: rgb(255, 255, 255);
+          font-family: Colfax, sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 27px;
+          align-items: center;
+          block-size: 61px;
           border-block-color: rgb(255, 255, 255);
           border-block-end-color: rgb(255, 255, 255);
           border-block-start-color: rgb(255, 255, 255);
@@ -407,17 +749,13 @@ export default function HomePage() {
           border-inline-color: rgb(255, 255, 255);
           border-inline-end-color: rgb(255, 255, 255);
           border-inline-start-color: rgb(255, 255, 255);
-          border-radius: 10px;
           border-start-end-radius: 10px;
           border-start-start-radius: 10px;
           border-top-left-radius: 10px;
           border-top-right-radius: 10px;
           caret-color: rgb(255, 255, 255);
-          color: rgb(255, 255, 255);
           column-rule-color: rgb(255, 255, 255);
-          cursor: pointer;
-          display: flex;
-          inline-size: 99.6016px;
+          inline-size: 200px;
           justify-content: center;
           outline-color: rgb(255, 255, 255);
           padding: 18px 28px 16px;
@@ -427,33 +765,39 @@ export default function HomePage() {
           padding-inline: 28px;
           padding-inline-end: 28px;
           padding-inline-start: 28px;
-          perspective-origin: 49.7969px 13.5px;
+          perspective-origin: 100px 30.5px;
           text-decoration: none solid rgb(255, 255, 255);
           text-decoration-color: rgb(255, 255, 255);
           text-size-adjust: 100%;
-          transform-origin: 49.8008px 13.5px;
+          transform-origin: 100px 30.5px;
           width: 200px;
           border-width: 1px;
-          border-color: rgb(255, 255, 255);
-          min-block-size: auto;
-          min-height: auto;
-          min-inline-size: auto;
-          min-width: auto;
+          min-width: 400px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 19px;
         }
         @media (max-width: 991px) {
-          .div-6 {
+          .a-4 {
             padding-top: 28px;
             padding-bottom: 28px;
             padding-right: 28px;
           }
         }
-        .a-2 {
+        .a-5 {
+          all: unset;
+          display: flex;
+          margin-top: 19px;
+          padding-top: 18px;
+          padding-bottom: 16px;
+          padding-left: 28px;
+          padding-right: 28px;
+          background-color: rgba(22, 11, 54, 1);
           color: rgb(255, 255, 255);
-          text-decoration: none rgb(255, 255, 255);
-          text-decoration-color: rgb(255, 255, 255);
+          border-radius: 10px;
+          cursor: pointer;
           border-bottom: 0px;
           border-bottom-color: rgb(255, 255, 255);
-          border-color: rgb(255, 255, 255);
           border-left: 0px;
           border-left-color: rgb(255, 255, 255);
           border-right: 0px;
@@ -464,106 +808,27 @@ export default function HomePage() {
           font-size: 18px;
           font-weight: 700;
           line-height: 27px;
-          block-size: 63px;
+          align-items: center;
+          block-size: 61px;
           border-block-color: rgb(255, 255, 255);
           border-block-end-color: rgb(255, 255, 255);
           border-block-start-color: rgb(255, 255, 255);
-          border-inline-color: rgb(255, 255, 255);
-          border-inline-end-color: rgb(255, 255, 255);
-          border-inline-start-color: rgb(255, 255, 255);
-          caret-color: rgb(255, 255, 255);
-          column-rule-color: rgb(255, 255, 255);
-          cursor: pointer;
-          display: inline-block;
-          inline-size: 200px;
-          max-inline-size: 100%;
-          max-width: 100%;
-          min-block-size: auto;
-          min-height: auto;
-          min-inline-size: auto;
-          min-width: auto;
-          outline-color: rgb(255, 255, 255);
-          perspective-origin: 100px 31.5px;
-          text-size-adjust: 100%;
-          transform-origin: 100px 31.5px;
-          pointer-events: auto;
-        }
-        @media (max-width: 640px) {
-          .a-2 {
-            margin-top: 29px;
-          }
-        }
-        .div-7 {
-          border-bottom: 0px;
-          border-bottom-color: rgb(51, 51, 51);
-          border-bottom-style: solid;
-          border-bottom-width: 1px;
-          border-color: rgb(51, 51, 51);
-          border-left: 0px;
-          border-left-color: rgb(51, 51, 51);
-          border-left-style: solid;
-          border-left-width: 1px;
-          border-right: 0px;
-          border-right-color: rgb(51, 51, 51);
-          border-right-style: solid;
-          border-right-width: 1px;
-          border-style: solid;
-          border-top: 0px;
-          border-top-color: rgb(51, 51, 51);
-          border-top-style: solid;
-          border-top-width: 1px;
-          border-width: 1px;
-          font-family: Colfax, sans-serif;
-          font-size: 18px;
-          font-weight: 700;
-          line-height: 27px;
-          padding-bottom: 16px;
-          padding-left: 28px;
-          padding-right: 28px;
-          padding-top: 18px;
-          align-items: center;
-          background-color: rgb(255, 255, 255);
-          block-size: 27px;
-          border-block: 1px solid rgb(51, 51, 51);
-          border-block-color: rgb(51, 51, 51);
-          border-block-end: 1px solid rgb(51, 51, 51);
-          border-block-end-color: rgb(51, 51, 51);
-          border-block-end-style: solid;
-          border-block-end-width: 1px;
-          border-block-start: 1px solid rgb(51, 51, 51);
-          border-block-start-color: rgb(51, 51, 51);
-          border-block-start-style: solid;
-          border-block-start-width: 1px;
-          border-block-style: solid;
-          border-block-width: 1px;
           border-bottom-left-radius: 10px;
           border-bottom-right-radius: 10px;
           border-end-end-radius: 10px;
           border-end-start-radius: 10px;
-          border-inline: 1px solid rgb(51, 51, 51);
-          border-inline-color: rgb(51, 51, 51);
-          border-inline-end: 1px solid rgb(51, 51, 51);
-          border-inline-end-color: rgb(51, 51, 51);
-          border-inline-end-style: solid;
-          border-inline-end-width: 1px;
-          border-inline-start: 1px solid rgb(51, 51, 51);
-          border-inline-start-color: rgb(51, 51, 51);
-          border-inline-start-style: solid;
-          border-inline-start-width: 1px;
-          border-inline-style: solid;
-          border-inline-width: 1px;
-          border-radius: 10px;
+          border-inline-color: rgb(255, 255, 255);
+          border-inline-end-color: rgb(255, 255, 255);
+          border-inline-start-color: rgb(255, 255, 255);
           border-start-end-radius: 10px;
           border-start-start-radius: 10px;
           border-top-left-radius: 10px;
           border-top-right-radius: 10px;
-          caret-color: rgb(51, 51, 51);
-          color: rgb(51, 51, 51);
-          column-rule-color: rgb(51, 51, 51);
-          display: flex;
-          inline-size: 126.453px;
+          caret-color: rgb(255, 255, 255);
+          column-rule-color: rgb(255, 255, 255);
+          inline-size: 200px;
           justify-content: center;
-          outline-color: rgb(51, 51, 51);
+          outline-color: rgb(255, 255, 255);
           padding: 18px 28px 16px;
           padding-block: 18px 16px;
           padding-block-end: 16px;
@@ -571,166 +836,191 @@ export default function HomePage() {
           padding-inline: 28px;
           padding-inline-end: 28px;
           padding-inline-start: 28px;
-          perspective-origin: 63.2266px 13.5px;
-          text-decoration: none solid rgb(51, 51, 51);
-          text-decoration-color: rgb(51, 51, 51);
+          perspective-origin: 100px 30.5px;
+          text-decoration: none solid rgb(255, 255, 255);
+          text-decoration-color: rgb(255, 255, 255);
           text-size-adjust: 100%;
-          transform-origin: 63.2266px 13.5px;
+          transform-origin: 100px 30.5px;
           width: 200px;
-          pointer-events: auto;
-          cursor: pointer;
-          min-block-size: auto;
-          min-height: auto;
-          min-inline-size: auto;
-          min-width: auto;
-          text-align: center;
+          border-width: 1px;
+          min-width: 400px;
+          margin-left: auto;
+          margin-right: auto;
         }
         @media (max-width: 991px) {
-          .div-7 {
-            text-align: center;
+          .a-5 {
+            padding-top: 28px;
+            padding-bottom: 28px;
+            padding-right: 28px;
           }
         }
-        .div-8 {
-          border-bottom: 0px;
-          border-bottom-color: rgb(92, 98, 120);
-          border-color: rgb(92, 98, 120);
-          border-left: 0px;
-          border-left-color: rgb(92, 98, 120);
-          border-right: 0px;
-          border-right-color: rgb(92, 98, 120);
-          border-top: 0px;
-          border-top-color: rgb(92, 98, 120);
-          font-family: Colfax, sans-serif;
-          font-size: 18px;
-          line-height: 27px;
-          block-size: 762px;
-          border-block-color: rgb(92, 98, 120);
-          border-block-end-color: rgb(92, 98, 120);
-          border-block-start-color: rgb(92, 98, 120);
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
-          border-end-end-radius: 5px;
-          border-end-start-radius: 5px;
-          border-inline-color: rgb(92, 98, 120);
-          border-inline-end-color: rgb(92, 98, 120);
-          border-inline-start-color: rgb(92, 98, 120);
-          border-radius: 5px;
-          border-start-end-radius: 5px;
-          border-start-start-radius: 5px;
-          border-top-left-radius: 5px;
-          border-top-right-radius: 5px;
-          caret-color: rgb(92, 98, 120);
-          color: rgb(92, 98, 120);
-          column-rule-color: rgb(92, 98, 120);
+        .a-6 {
+          all: unset;
           display: flex;
-          height: auto;
-          inline-size: 621px;
-          max-inline-size: 621px;
-          max-width: 621px;
-          min-block-size: auto;
-          min-height: auto;
-          min-inline-size: auto;
-          min-width: auto;
-          outline-color: rgb(92, 98, 120);
-          overflow: hidden;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          perspective-origin: 310.5px 381px;
-          text-decoration: none solid rgb(92, 98, 120);
-          text-decoration-color: rgb(92, 98, 120);
-          text-size-adjust: 100%;
-          transform-origin: 310.5px 381px;
-          margin-right: auto;
-          align-self: center;
-        }
-        .raw-img {
+          margin-top: 19px;
+          padding-top: 18px;
+          padding-bottom: 16px;
+          padding-left: 28px;
+          padding-right: 28px;
+          background-color: rgba(22, 11, 54, 1);
+          color: rgb(255, 255, 255);
+          border-radius: 10px;
+          cursor: pointer;
           border-bottom: 0px;
-          border-bottom-color: rgb(92, 98, 120);
-          border-color: rgb(92, 98, 120);
+          border-bottom-color: rgb(255, 255, 255);
           border-left: 0px;
-          border-left-color: rgb(92, 98, 120);
+          border-left-color: rgb(255, 255, 255);
           border-right: 0px;
-          border-right-color: rgb(92, 98, 120);
+          border-right-color: rgb(255, 255, 255);
           border-top: 0px;
-          border-top-color: rgb(92, 98, 120);
+          border-top-color: rgb(255, 255, 255);
           font-family: Colfax, sans-serif;
           font-size: 18px;
+          font-weight: 700;
           line-height: 27px;
-          vertical-align: middle;
-          block-size: 762px;
-          border-block-color: rgb(92, 98, 120);
-          border-block-end-color: rgb(92, 98, 120);
-          border-block-start-color: rgb(92, 98, 120);
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
-          border-end-end-radius: 5px;
-          border-end-start-radius: 5px;
-          border-inline-color: rgb(92, 98, 120);
-          border-inline-end-color: rgb(92, 98, 120);
-          border-inline-start-color: rgb(92, 98, 120);
-          border-radius: 5px;
-          border-start-end-radius: 5px;
-          border-start-start-radius: 5px;
-          border-top-left-radius: 5px;
-          border-top-right-radius: 5px;
-          caret-color: rgb(92, 98, 120);
-          color: rgb(92, 98, 120);
-          column-rule-color: rgb(92, 98, 120);
-          display: none;
-          height: 762px;
-          inline-size: 621px;
-          max-inline-size: 100%;
-          max-width: 100%;
-          min-block-size: auto;
-          min-height: auto;
-          min-inline-size: auto;
-          min-width: auto;
-          object-fit: contain;
-          outline-color: rgb(92, 98, 120);
-          overflow: hidden;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          perspective-origin: 310.5px 381px;
-          text-decoration: none solid rgb(92, 98, 120);
-          text-decoration-color: rgb(92, 98, 120);
+          align-items: center;
+          block-size: 61px;
+          border-block-color: rgb(255, 255, 255);
+          border-block-end-color: rgb(255, 255, 255);
+          border-block-start-color: rgb(255, 255, 255);
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border-end-end-radius: 10px;
+          border-end-start-radius: 10px;
+          border-inline-color: rgb(255, 255, 255);
+          border-inline-end-color: rgb(255, 255, 255);
+          border-inline-start-color: rgb(255, 255, 255);
+          border-start-end-radius: 10px;
+          border-start-start-radius: 10px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          caret-color: rgb(255, 255, 255);
+          column-rule-color: rgb(255, 255, 255);
+          inline-size: 200px;
+          justify-content: center;
+          outline-color: rgb(255, 255, 255);
+          padding: 18px 28px 16px;
+          padding-block: 18px 16px;
+          padding-block-end: 16px;
+          padding-block-start: 18px;
+          padding-inline: 28px;
+          padding-inline-end: 28px;
+          padding-inline-start: 28px;
+          perspective-origin: 100px 30.5px;
+          text-decoration: none solid rgb(255, 255, 255);
+          text-decoration-color: rgb(255, 255, 255);
           text-size-adjust: 100%;
-          transform-origin: 310.5px 381px;
-          width: 100%;
+          transform-origin: 100px 30.5px;
+          width: 200px;
+          border-width: 1px;
+          min-width: 400px;
+          margin-left: auto;
+          margin-right: auto;
         }
         @media (max-width: 991px) {
-          .raw-img {
+          .a-6 {
+            padding-top: 28px;
+            padding-bottom: 28px;
+            padding-right: 28px;
+          }
+        }
+        .a-7 {
+          all: unset;
+          display: none;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          appearance: none;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 25px;
+          padding-right: 25px;
+          background-color: black;
+          color: white;
+          border-radius: 4px;
+          text-align: center;
+          cursor: pointer;
+        }
+        @media (max-width: 991px) {
+          .a-7 {
+            font-family: "Play", sans-serif;
             display: none;
           }
         }
         @media (max-width: 640px) {
-          .raw-img {
+          .a-7 {
             display: none;
           }
         }
-        .div-9 {
+        .a-8 {
+          all: unset;
           display: flex;
-          flex-direction: column;
-          position: relative;
-          margin-left: 20px;
-          width: 100%;
-          min-height: 20px;
-          min-width: 20px;
-          overflow: hidden;
+          margin-top: 19px;
+          padding-top: 18px;
+          padding-bottom: 16px;
+          padding-left: 28px;
+          padding-right: 28px;
+          background-color: rgba(22, 11, 54, 1);
+          color: rgb(255, 255, 255);
+          border-radius: 10px;
+          cursor: pointer;
+          border-bottom: 0px;
+          border-bottom-color: rgb(255, 255, 255);
+          border-left: 0px;
+          border-left-color: rgb(255, 255, 255);
+          border-right: 0px;
+          border-right-color: rgb(255, 255, 255);
+          border-top: 0px;
+          border-top-color: rgb(255, 255, 255);
+          font-family: Colfax, sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 27px;
+          align-items: center;
+          block-size: 61px;
+          border-block-color: rgb(255, 255, 255);
+          border-block-end-color: rgb(255, 255, 255);
+          border-block-start-color: rgb(255, 255, 255);
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border-end-end-radius: 10px;
+          border-end-start-radius: 10px;
+          border-inline-color: rgb(255, 255, 255);
+          border-inline-end-color: rgb(255, 255, 255);
+          border-inline-start-color: rgb(255, 255, 255);
+          border-start-end-radius: 10px;
+          border-start-start-radius: 10px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          caret-color: rgb(255, 255, 255);
+          column-rule-color: rgb(255, 255, 255);
+          inline-size: 200px;
+          justify-content: center;
+          outline-color: rgb(255, 255, 255);
+          padding: 18px 28px 16px;
+          padding-block: 18px 16px;
+          padding-block-end: 16px;
+          padding-block-start: 18px;
+          padding-inline: 28px;
+          padding-inline-end: 28px;
+          padding-inline-start: 28px;
+          perspective-origin: 100px 30.5px;
+          text-decoration: none solid rgb(255, 255, 255);
+          text-decoration-color: rgb(255, 255, 255);
+          text-size-adjust: 100%;
+          transform-origin: 100px 30.5px;
+          width: 200px;
+          border-width: 1px;
+          min-width: 400px;
+          margin-left: auto;
+          margin-right: auto;
         }
-        .image {
-          object-fit: cover;
-          object-position: center;
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          top: 0;
-          left: 0;
-        }
-        .image-sizer {
-          width: 100%;
-          padding-top: 70.41%;
-          pointer-events: none;
-          font-size: 0;
+        @media (max-width: 991px) {
+          .a-8 {
+            padding-top: 28px;
+            padding-bottom: 28px;
+            padding-right: 28px;
+          }
         }
       `}</style>
     </>
