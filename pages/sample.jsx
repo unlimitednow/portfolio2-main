@@ -97,7 +97,7 @@ export default function HomePage() {
                             className="div-17"
                           >
                             <div className="div-18">
-                              <RawImg
+                              <img
                                 image="https://framerusercontent.com/images/mUVPNgOqhd1MFYjLtFtiBwvxfY.png"
                                 className="raw-img"
                               />
