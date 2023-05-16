@@ -9,7 +9,7 @@ import Icon from "../../utils/icon.util";
 import css from "../../../styles/sections/projects/featured.module.scss";
 
 export default function FeaturedProject() {
-  const [content, setContent] = useState(null);
+const [content, setContent] = useState([]);
   const controls = useAnimation();
   const { ref, inView } = useInView({
     threshold: 0.25,
@@ -17,11 +17,12 @@ export default function FeaturedProject() {
   });
 
   useEffect(() => {
-    async function fetchContent() {
-      const res = await fetch("/api/featured");
-      const { content } = await res.json();
-      setContent(content);
-    }
+async function fetchContent() {
+  const res = await fetch("/api/featured");
+  const { content } = await res.json();
+  setContent(content.projects);
+}
+
     fetchContent();
   }, []);
 
