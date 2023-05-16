@@ -18,7 +18,7 @@ export default function handler(req, res) {
         },
         {
           key: "image2",
-          url: "https://res.cloudinary.com/unlimitednow/image/upload/v1680409711/samples/f09db94d-9071-439e-91c7-80618e035d17.png",
+          url: "public/img/msc-mock_stack/01.png",
           hover: "right",
           h: 300,
           w: 400,
