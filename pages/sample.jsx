@@ -150,7 +150,7 @@ export default function HomePage() {
                 <span style="font-size: 16px;">Find us on angel.co</span>
               </p>
             </a>
-            <a href="/move" className="a-3" openLinkInNewTab={false}>
+            <a href="https://unlimitpotential.com/move" className="a-3" openLinkInNewTab={false}>
               The Movement
             </a>
             <a
