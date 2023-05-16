@@ -16,8 +16,22 @@ export default function HomePage() {
 		<>
 			<Color colors={colors} />
 			<Hero />
+	 <a
+              href="https://calendly.com/unlimitednow/15min"
+              className="a-8"
+              openLinkInNewTab={false}
+            >
+              Find A Creator
+            </a>
 	 <>
       
+    </>
+			{/* <Looking /> */}
+			<FeaturedProjects />
+			<About />
+			<Technical />
+			{/* <Career /> */}
+
       <style jsx>{`
         .div {
           justify-content: space-between;
@@ -850,12 +864,6 @@ export default function HomePage() {
           }
         }
       `}</style>
-    </>
-			{/* <Looking /> */}
-			<FeaturedProjects />
-			<About />
-			<Technical />
-			{/* <Career /> */}
 		</>
 	);
 }
