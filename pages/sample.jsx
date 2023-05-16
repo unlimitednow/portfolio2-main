@@ -58,58 +58,7 @@ export default function HomePage() {
               </div>
             </div>
           </a>
-          <div
-            values="[object Object]"
-            data-projection-id="73"
-            className="div-9"
-          >
-            <div data-projection-id="74" className="div-10">
-              <div data-projection-id="75" className="div-11">
-                <div data-projection-id="76" className="div-12">
-                  <div
-                    data-framer-component-type="Stack"
-                    data-layoutid="AD1uRb789"
-                    data-framer-name="Cheryl"
-                    data-framer-generated="true"
-                    data-projection-id="77"
-                    className="div-13"
-                  >
-                    <div
-                      data-framer-stack-content-wrapper="true"
-                      data-framer-stack-direction-reverse="false"
-                      data-framer-stack-gap-enabled="true"
-                      data-projection-id="78"
-                      className="div-14"
-                    >
-                      <div
-                        data-framer-legacy-stack-gap-enabled="true"
-                        data-framer-stack-flexbox-gap="true"
-                        className="div-15"
-                      >
-                        <div
-                          data-framer-name="Avatar"
-                          data-projection-id="79"
-                          className="div-16"
-                        >
-                          <div
-                            data-framer-background-image-wrapper="true"
-                            data-projection-id="80"
-                            className="div-17"
-                          >
-                            <div className="div-18">
-                              <img
-                                image="https://framerusercontent.com/images/mUVPNgOqhd1MFYjLtFtiBwvxfY.png"
-                                className="raw-img"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+         
             <div data-projection-id="81" className="div-19">
               <div data-projection-id="82" className="div-20">
                 <div data-projection-id="83" className="div-21" />
