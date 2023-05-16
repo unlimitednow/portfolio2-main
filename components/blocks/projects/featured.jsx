@@ -9,7 +9,7 @@ import Icon from "../../utils/icon.util";
 import css from "../../../styles/sections/projects/featured.module.scss";
 
 export default function FeaturedProject() {
-  const [content, setContent] = useState([]);
+  const [content, setContent] = useState(null);
   const controls = useAnimation();
   const { ref, inView } = useInView({
     threshold: 0.25,
@@ -20,7 +20,7 @@ export default function FeaturedProject() {
     async function fetchContent() {
       const res = await fetch("/api/featured");
       const { content } = await res.json();
-      setContent(content.projects);
+      setContent(content);
     }
     fetchContent();
   }, []);
@@ -34,7 +34,11 @@ export default function FeaturedProject() {
     }
   }, [controls, inView]);
 
-  const { name: project, url, repo, descriptionTitle, description, stack, imageOptions, images } = project;
+  if (!content) {
+    return null;
+  }
+
+  const { project, url, repo, descriptionTitle, description, stack, imageOptions, images } = content;
 
   return (
     <m.section
@@ -63,26 +67,25 @@ export default function FeaturedProject() {
             </p>
           </div>
 
-          <div className={css.stackContainer}>
-            <Badges list={stack} block="stack" fullContainer={false} color={false} />
-          </div>
-          <m.div variants={''} className={css.viewProject}>
-            <Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
-          </m.div>
-        </div>
-      </div>
+					<div className={css.stackContainer}>
+						<Badges list={stack} block="stack" fullContainer={false} color={false} />
+					</div>
+					<m.div variants={''} className={css.viewProject}>
+						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
+					</m.div>
+				</div>
+			</div>
 
-      <div className={css.imageContainer}>
-        <span className={`${css.imageAnimationContainer}`}>
-          { images.map( ({key, url, hover, h, w }, index) => {
-            hover = ( hover === 'left' ) ? hoverLeft : hoverRight
-            return (
-              <m.div key={`${index}-${key}`} variants={item}>
-                <m.div variants={hover}>
-                  <Image src={url} alt="x" height={h} width={w} />
-                </m.div>
-              </m.div>
-
+			<div className={css.imageContainer}>
+				<span className={`${css.imageAnimationContainer}`}>
+					{ images.map( ({key, url, hover, h, w }, index) => {
+						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
+						return (
+							<m.div key={`${index}-${key}`} variants={item}>
+								<m.div variants={hover}>
+									<Image src={url} alt="x" height={h} width={w} />
+								</m.div>
+							</m.div>
 						)}
 					) }
 				</span>
@@ -156,4 +159,3 @@ const hoverRight = {
 		x: 20
 	}
 }
-
