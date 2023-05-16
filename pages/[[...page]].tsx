@@ -4,7 +4,16 @@ import { BuilderComponent, Builder, builder } from '@builder.io/react';
 import DefaultErrorPage from 'next/error';
 import Head from 'next/head';
 import Box from './cobe';
+import Hero 		from '../components/sections/index/hero'
+import Looking 		from '../components/sections/index/looking'
+import About 		from '../components/sections/index/about'
+import Technical 	from '../components/sections/index/technical'
+import Career 		from '../components/sections/index/career'
+import FeaturedProjects	from '../components/sections/projects/featured'
 
+import Color 		from '../components/utils/page.colors.util'
+
+import colors 		from '../content/index/_colors.json'
 export async function getStaticProps({ params }: GetStaticPropsContext<{ page: string[] }>) {
   const page = await builder
     .get('page', {
@@ -67,7 +76,10 @@ export default function Page({ page }: InferGetStaticPropsType<typeof getStaticP
                name="description"
                content="Designed to help you manage the bigger picture. Unlimited Now   "
              />
-           </Head><BuilderComponent model="page" content={page} />      <Box />
+           </Head>			<Color colors={colors} />
+<BuilderComponent model="page" content={page} />     <FeaturedProjects />
+			<About />
+			<Technical />
 </>
   );
 }
