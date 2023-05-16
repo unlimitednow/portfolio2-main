@@ -11,7 +11,7 @@ export default function handler(req, res) {
       images: [
         {
           key: "image1",
-          url: "/image1.jpg",
+          url: "https://res.cloudinary.com/unlimitednow/image/upload/v1679988222/samples/c6ac1dc1-1a49-4fc0-b6ec-ffe8f4d775f2.png",
           hover: "left",
           h: 300,
           w: 400,
