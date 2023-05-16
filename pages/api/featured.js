@@ -11,14 +11,14 @@ export default function handler(req, res) {
       images: [
         {
           key: "image1",
-          url: "/image1.jpg",
+          url: "https://res.cloudinary.com/unlimitednow/image/upload/v1674960871/samples/417f24e5-9e72-41ce-a4dd-f5d004b3c996.png",
           hover: "left",
           h: 300,
           w: 400,
         },
         {
           key: "image2",
-          url: "/image2.jpg",
+          url: "https://res.cloudinary.com/unlimitednow/image/upload/v1680409711/samples/f09db94d-9071-439e-91c7-80618e035d17.png",
           hover: "right",
           h: 300,
           w: 400,
