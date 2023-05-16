@@ -34,7 +34,7 @@ export default function FeaturedProject() {
     }
   }, [controls, inView]);
 
-  const { name: project, url, repo, descriptionTitle, description, stack, imageOptions, images } = content;
+  const { name: project, url, repo, descriptionTitle, description, stack, imageOptions, images } = project;
 
   return (
     <m.section
